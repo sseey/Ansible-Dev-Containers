@@ -1,0 +1,20 @@
+{
+    "name": "Ansible DevContainer",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": "."
+    },
+    "settings": {
+      "python.defaultInterpreterPath": "/usr/local/bin/python",
+      "ansible.useFullyQualifiedCollectionNames": true
+    },
+    "extensions": [
+      "redhat.ansible",
+      "redhat.vscode-yaml",
+      "ms-python.python",
+      "timonwong.shellcheck",
+      "davidanson.vscode-markdownlint"
+    ],
+    "remoteUser": "vscode"
+  }
+  
